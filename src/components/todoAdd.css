@@ -1,0 +1,17 @@
+.form-control:active, .form-control:focus {
+    outline: none !important;
+  }
+  .form-control:-moz-focus-inner {
+    border: 0 !important;
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+    }
+    input:-webkit-autofill {
+        color: #ffffff !important;
+        border:  0 !important;
+        outline: none !important;
+    }
+
+

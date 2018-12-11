@@ -1,0 +1,66 @@
+form{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.form-input {
+  line-height: 35px;
+  outline: none !important;
+  border: 0 solid #fff;
+  border-left: 1px solid #ccc;
+}
+
+
+.input-group-text {
+  border: 0;
+  border-bottom: 1px solid #ededed;
+  margin: 0 !important;
+  background: #fff;
+  border-radius: 0 !important;
+  border-right: 0 solid #fff !important;
+}
+
+.form-control {
+  border: 0;
+  border-bottom: 1px solid #ededed;
+  border-left: 0 solid #fff !important;
+  outline: none !important;
+}
+
+.task-text {
+  line-height: 40px;
+  background: #fff;
+  border-bottom: 1px solid #ededed;
+}
+
+.delete {
+  float: right;
+  color: red;
+  cursor: pointer;
+  display: none;
+}
+
+.task-text:hover .delete {
+  display: inline-block;
+}
+
+.isComplete {
+  text-decoration: line-through;
+}
+
+.box {
+  margin-left: 12px;
+  margin-right: 25px;
+}
+
+.btn{
+    border: 1px solid #ccc;
+}
+
+
+input:active, input:focus {
+  outline: none !important;
+}
+input:-moz-focus-inner {
+  border: 0 !important;
+}
